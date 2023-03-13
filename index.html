@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="mainpage.css" />
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+        <title>Static Template</title>
+        <h1>COVID? The biggest hoax in human history?</h1>
+  </head>
+      <body>
+          <p>
+              At this rate, everyone and their mother's dog knows about COVID-19 however
+               not anyone is convinced that it was a real disease. So lets investigate,
+              were people really affected by covid19 or is the biggest hoax in human
+              history?
+              
+            </p>
+           <!---- <svg id="my_dataviz" width="630" height="350"></svg> -->
+             <svg id="bargraph" width="630" height="350"></svg> 
+            <script src="deathchart.js"></script>
+          <p> 
+            There's nothing more tangible than death (that got morbid very fast..)
+            It seems as though there generally was an increase in deaths from 2020-2022 corresponding
+            with the covid years. But I hear you, people die all the time, especially if they're old.
+          Okay, fine, lets see if we can find anything about the death rate across the ages during those covid years </p>
+            <div id="stackedchart" width="630" height="350"></div>
+            <script src="stackedchart.js"></script>
+            <p> Okay, so I guess that doesnt really tell us much. Sure, more older people died during the covid years
+              than usual, big whoop, doesnt that happen every year? So you remain unconvinced, no worries.
+               Let's try something else then, let's see how many people actually got COVID in 2020 across the countries. Surely they cant all be lying...</p> 
+            <div id="circlegraph" width="630" height="850"></div>
+            <script src="circlechart.js"></script>
+              </body>
+  <script src="map.js"></script>
+  </head>
+</html>
